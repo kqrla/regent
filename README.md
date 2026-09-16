@@ -119,20 +119,9 @@ benchmark.md     → the parameter registry, delta vectors, voicebench baselines
 agent.md         → voice profile schema, the tuning engine contract, per-channel behavior
 applications.md → architecture, identity graph shape, api surface, deployment
 glossary.md      → linguistics vocabulary grounding every field above
+regent.md        → the live side: one number, every channel, shared memory, disclosure
 ```
 
+external collaboration proposals live in `proposal/`, currently the resemble.ai pitch on how the acoustic and stylometric layers split.
+
 if this readme and one of those docs disagree, the doc wins — this is the map, not the spec.
----
-
-## repository layout
-
-this repo is the working home of the whole ecosystem, both sides in one place:
-
-- `scope.md`: what is in and out, the medium/channel distinction, and the v1 definition of done. read this first
-- `research.md`: the yaptele measurement side, how a voice gets measured across the three layers
-- `benchmark.md`: voicebench, the parameter registry, and the status ladder for turning "sounds like them" into numbers
-- `agent.md`: the tuning engine, the voice profile schema, and per-channel rendering for the live agent
-- `applications.md`: the system underneath it all, architecture, tool responsibility, identity graph, and deployment
-- `glossary.md`: grounding vocabulary from linguistics, mapped to the three layers
-- `regent.md`: the delivery and memory architecture for the one-number, every-channel live side
-- `proposal/`: external collaboration proposals, currently the resemble.ai pitch (`proposal/resemble.md`)
